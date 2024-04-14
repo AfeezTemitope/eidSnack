@@ -8,7 +8,7 @@ public class CreditCard{
         System.out.print("Kindly enter your card details to confirm: ");
         String cardNumber = input.nextLine();
 
-        if (cardNumber.length() < 13 || cardNumber.length() > 16 || !cardNumber.matches("\\d+")){
+        if (cardNumber.length() < 13 || cardNumber.length() > 16){
             System.out.println("invalid credit card number!");
         } else{
             String cardType;
